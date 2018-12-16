@@ -11,7 +11,7 @@ var server = "514083261132046366"; // ايدي السررفر
 var channel = "523890946635726849";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('** spam **')
-    },10);
+    },305);
 })
 
 client.on('message', message => {
